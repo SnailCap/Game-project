@@ -1,0 +1,34 @@
+{
+  "FIREBALL": {
+    "DAMAGE": "25",
+    "SPEED": "120",
+    "TEXTURE": {
+      "PATH": "projectiles/Fireball.png",
+      "FLIP": "true",
+      "FRAME_DURATION": "0.02",
+      "COLUMN_WIDTH": "68",
+      "ROW_HEIGHT": "9",
+      "TEXTURE_SCALE": "1",
+      "HEAD_OFFSET": "28"
+    },
+    "SPAWN_DISTANCE_FROM_ORIGIN": "28",
+    "B2BODY_SHAPE": "CIRCLE",
+    "B2BODY_SIZE_MULTIPLIER": "4.7"
+  },
+  "ARROW": {
+    "DAMAGE": "8",
+    "SPEED": "300",
+    "TEXTURE": {
+      "PATH": "projectiles/Arrow.png",
+      "FLIP": "false",
+      "FRAME_DURATION": "0.02",
+      "COLUMN_WIDTH": "32",
+      "ROW_HEIGHT": "32",
+      "TEXTURE_SCALE": "1",
+      "HEAD_OFFSET": "0"
+    },
+    "SPAWN_DISTANCE_FROM_ORIGIN": "3",
+    "B2BODY_SHAPE": "CIRCLE",
+    "B2BODY_SIZE_MULTIPLIER": "3.5"
+  }
+}

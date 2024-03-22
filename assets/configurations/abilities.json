@@ -1,0 +1,10 @@
+{
+  "FIREBALL_LAUNCH": {
+    "PROJECTILE_NAME": "FIREBALL",
+    "COOLDOWN": "1f"
+  },
+  "ARROW_SHOT": {
+    "PROJECTILE_NAME": "ARROW",
+    "COOLDOWN": "1f"
+  }
+}

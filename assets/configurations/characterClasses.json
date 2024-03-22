@@ -1,0 +1,104 @@
+{
+  "MAGE": {
+    "HP": "100",
+    "MOVEMENT_SPEED": "150",
+    "TEXTURE_SCALE": "1",
+    "TEXTURES": {
+      "STATIC_TEXTURES": {
+        "STAND": {
+          "PATH": "characters/mage/Idle.png",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      },
+      "FRAMED_TEXTURES": {
+        "RUN": {
+          "PATH": "characters/mage/Run.png",
+          "FRAME_DURATION": "0.2",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      }
+    },
+    "B2BODY_SIZE_MULTIPLIER": "9.0",
+    "MAIN_ABILITY_CLASS_PATH": "ee.taltech.survivors.world.abilities.FireballLaunch"
+  },
+  "KNIGHT": {
+    "HP": "200",
+    "MOVEMENT_SPEED": "100",
+    "TEXTURE_SCALE": "1",
+    "TEXTURES": {
+      "STATIC_TEXTURES": {
+        "STAND": {
+          "PATH": "characters/knight/Idle.png",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      },
+      "FRAMED_TEXTURES": {
+        "RUN": {
+          "PATH": "characters/knight/Run.png",
+          "FRAME_DURATION": "0.15",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      }
+    },
+    "B2BODY_SIZE_MULTIPLIER": "9.0",
+    "MAIN_ABILITY_CLASS_PATH": "ee.taltech.survivors.world.abilities.FireballLaunch"
+  },
+  "ARCHER": {
+    "HP": "150",
+    "MOVEMENT_SPEED": "200",
+    "TEXTURE_SCALE": "1",
+    "TEXTURES": {
+      "STATIC_TEXTURES": {
+        "STAND": {
+          "PATH": "characters/archer/Idle.png",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      },
+      "FRAMED_TEXTURES": {
+        "RUN": {
+          "PATH": "characters/archer/Run.png",
+          "FRAME_DURATION": "0.2",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        },
+        "ATTACK": {
+          "PATH": "characters/archer/Attack.png",
+          "FRAME_DURATION": "0.5",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      }
+    },
+    "B2BODY_SIZE_MULTIPLIER": "9.0",
+    "MAIN_ABILITY_CLASS_PATH": "ee.taltech.survivors.world.abilities.ArrowShot"
+  },
+  "ASSASSIN": {
+    "HP": "120",
+    "MOVEMENT_SPEED": "200",
+    "TEXTURE_SCALE": "1",
+    "TEXTURES": {
+      "STATIC_TEXTURES": {
+        "STAND": {
+          "PATH": "characters/assassin/Idle.png",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      },
+      "FRAMED_TEXTURES": {
+        "RUN": {
+          "PATH": "characters/assassin/Run.png",
+          "FRAME_DURATION": "0.25",
+          "COLUMN_WIDTH": "32",
+          "ROW_HEIGHT": "32"
+        }
+      }
+    },
+    "B2BODY_SIZE_MULTIPLIER": "9.0",
+    "MAIN_ABILITY_CLASS_PATH": "ee.taltech.survivors.world.abilities.FireballLaunch"
+  }
+}
